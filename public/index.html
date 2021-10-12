@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- GTAG -->
+    <script>
+      ;(function (w, d, s, l, i) {
+        w[l] = w[l] || []
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : ''
+        j.async = true
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+        f.parentNode.insertBefore(j, f)
+      })(window, document, 'script', 'dataLayer', '%REACT_APP_GTAG%')
+    </script>
+    <!-- Links -->
+    <link rel="preconnect" href="%REACT_APP_NODE_1%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_2%" />
+    <link rel="preconnect" href="%REACT_APP_NODE_3%" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Futura:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!-- Meta -->
+    <title>Casino-Slot</title>
+    <meta
+      name="description"
+      content="very modern and interesting defi game"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, minimum-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="twitter:image" content="https://dragonswap.app/hero.png" />
+    <meta
+      name="twitter:description"
+      content="very modern and interesting defi game"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="�� very modern and interesting defi game" />
+
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/main.css" type="text/css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/orientation_utils.css" type="text/css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/ios_fullscreen.css" type="text/css">
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+<!--
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-3.2.1.min.js"></script>
+    <script type="text/avascript" src="%PUBLIC_URL%/js/createjs-2015.11.26.min.js"></script>
+ -->
+    <!-- <script type="text/javascript" src="%PUBLIC_URL%/js/build.js"></script> -->
+
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/createjs-2013.12.12.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/platform.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/ios_fullscreen.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/howler.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/screenfull.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/ctl_utils.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/sprite_lib.js"></script>
+    
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CSlotSettings.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CLang.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CPreloader.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CMain.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CTextButton.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CGfxButton.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CToggle.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CBetBut.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CMenu.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CGame.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CReelColumn.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CInterface.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CPayTablePanel.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CStaticSymbolCell.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CTweenController.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CBonusPanel.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/CCreditsPanel.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/addCreditsModal.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/dlgFreeSpinAsk.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/dlgBet.js"></script>
+    
+    <script type="text/javascript" src="%PUBLIC_URL%/js/settings.js"></script>
+
+    <!-- TEST BELOW add credit -->
+    <script type="text/javascript" src="%PUBLIC_URL%/js/steem.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/poll.js"></script>
+
+    
+    <script text="text/javascript" src="%PUBLIC_URL%/js/toastr.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/jquery.slotmachine.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/web3.min.js"></script>
+    <script type="text/javascript" src="%PUBLIC_URL%/js/truffle-contract.js"></script>
+
+
+
+  </head>
+  <body ondragstart="return false;" ondrop="return false;" >
+    <!-- GTAG (noscript) -->
+    <noscript>
+      <iframe
+        src="https://www.googletagmanager.com/ns.html?id=%REACT_APP_GTAG%"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe>
+    </noscript>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- <div id="root"></div> -->
+    <!-- <div style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%"></div> -->
+    <script>
+      $(document).ready(function(){
+                var oMain = new CMain({
+                              win_occurrence:85,        //WIN PERCENTAGE.SET A VALUE FROM 0 TO 100.
+                              slot_cash: 100,          //THIS IS THE CURRENT SLOT CASH AMOUNT. THE GAME CHECKS IF THERE IS AVAILABLE CASH FOR WINNINGS.
+                              bonus_occurrence:15,      //SET BONUS OCCURRENCE PERCENTAGE IF PLAYER GET A WIN. SET A VALUE FROM 0 TO 100. (IF 100%, PLAYER GET A BONUS EVERYTIME THERE IS A WIN).
+                              min_reel_loop:1,          //NUMBER OF REEL LOOPS BEFORE SLOT STOPS  
+                              reel_delay: 0,            //NUMBER OF FRAMES TO DELAY THE REELS THAT START AFTER THE FIRST ONE
+                              time_show_win:2000,       //DURATION IN MILLISECONDS OF THE WINNING COMBO SHOWING
+                              time_show_all_wins: 2000, //DURATION IN MILLISECONDS OF ALL WINNING COMBO
+                              money:100,               //STARING CREDIT FOR THE USER
+                              min_bet:0.05,             //MINIMUM COIN FOR BET
+                              max_bet: 0.5,             //MAXIMUM COIN FOR BET
+                              max_hold:3,               //MAXIMUM NUMBER OF POSSIBLE HOLD ON REELS
+                              perc_win_egg_1: 50,       //OCCURENCE PERCENTAGE FOR EGG 1 IN BONUS
+                              perc_win_egg_2: 35,       //OCCURENCE PERCENTAGE FOR EGG 2 IN BONUS
+                              perc_win_egg_3: 15,       //OCCURENCE PERCENTAGE FOR EGG 3 IN BONUS
+                              /***********PAYTABLE********************/
+                              //EACH SYMBOL PAYTABLE HAS 5 VALUES THAT INDICATES THE MULTIPLIER FOR X1,X2,X3,X4 OR X5 COMBOS
+                              paytable_symbol_1: [0,0,150,250,500], //PAYTABLE FOR SYMBOL 1
+                              paytable_symbol_2: [0,0,100,150,200], //PAYTABLE FOR SYMBOL 2
+                              paytable_symbol_3: [0,0,50,100,150],  //PAYTABLE FOR SYMBOL 3
+                              paytable_symbol_4: [0,10,25,50,100],  //PAYTABLE FOR SYMBOL 4
+                              paytable_symbol_5: [0,10,25,50,100],  //PAYTABLE FOR SYMBOL 5
+                              paytable_symbol_6: [0,5,15,25,50],    //PAYTABLE FOR SYMBOL 6
+                              paytable_symbol_7: [0,2,10,20,35],    //PAYTABLE FOR SYMBOL 7
+                              paytable_symbol_8: [0,1,5,10,15],     //PAYTABLE FOR SYMBOL 8
+
+
+                            //   paytable_symbol_1: [0,0,100,150,200,250], //PAYTABLE FOR SYMBOL 1
+                            //   paytable_symbol_2: [0,0,50,100,150,200], //PAYTABLE FOR SYMBOL 2
+                            //   paytable_symbol_3: [0,0,15,50,100,150],  //PAYTABLE FOR SYMBOL 3
+                            //   paytable_symbol_4: [0,0,10,25,50,100],  //PAYTABLE FOR SYMBOL 4
+                            //   paytable_symbol_5: [0,0,10,25,50,100],  //PAYTABLE FOR SYMBOL 5
+                            //   paytable_symbol_6: [0,0,5,15,25,50],    //PAYTABLE FOR SYMBOL 6
+                            //   paytable_symbol_7: [0,0,2,10,20,25],    //PAYTABLE FOR SYMBOL 7
+                            //   paytable_symbol_8: [0,0,1,5,10,15],     //PAYTABLE FOR SYMBOL 8
+
+                              /*************************************/
+                              fullscreen:true,           //SET THIS TO FALSE IF YOU DON'T WANT TO SHOW FULLSCREEN BUTTON
+                              check_orientation:true,    //SET TO FALSE IF YOU DON'T WANT TO SHOW ORIENTATION ALERT ON MOBILE DEVICES
+                              show_credits:true,         //ENABLE/DISABLE CREDITS BUTTON IN THE MAIN SCREEN
+                              num_spin_ads_showing:10    //NUMBER OF SPIN TO COMPLETE, BEFORE TRIGGERING AD SHOWING.
+                              
+                              //// THIS FUNCTIONALITY IS ACTIVATED ONLY WITH CTL ARCADE PLUGIN.///////////////////////////
+                              /////////////////// YOU CAN GET IT AT: /////////////////////////////////////////////////////
+                              // http://codecanyon.net/item/ctl-arcade-wordpress-plugin/13856421 /////////////////////////
+                          });
+        //    $(oMain).on("save_score", function (evt, iMoney) {
+        //         alert("iMoney: "+iMoney );
+        //    });
+          $(oMain).on("start_session", function (evt) {
+              if(getParamValue('ctl-arcade') === "true"){
+                  parent.__ctlArcadeStartSession();
+              }
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+
+          $(oMain).on("end_session", function (evt) {
+              if(getParamValue('ctl-arcade') === "true"){
+                  parent.__ctlArcadeEndSession();
+              }
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+          
+          $(oMain).on("bet_placed", function (evt, oBetInfo) {
+              var iBet = oBetInfo.bet;
+              var iTotBet = oBetInfo.tot_bet;
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+          
+          $(oMain).on("bonus_start", function (evt) {
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+
+          $(oMain).on("bonus_end", function (evt, iMoney) {
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+          
+          $(oMain).on("save_score", function (evt, iMoney) {
+              if(getParamValue('ctl-arcade') === "true"){
+                  parent.__ctlArcadeSaveScore({score:iMoney});
+              }
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+
+          $(oMain).on("show_interlevel_ad", function (evt) {
+              if(getParamValue('ctl-arcade') === "true"){
+                  parent.__ctlArcadeShowInterlevelAD();
+              }
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+
+          $(oMain).on("share_event", function (evt, oData) {
+              if(getParamValue('ctl-arcade') === "true"){
+                  parent.__ctlArcadeShareEvent(oData);
+              }
+              //...ADD YOUR CODE HERE EVENTUALLY
+          });
+                
+          if (isIOS()) {
+              setTimeout(function () {
+                  sizeHandler();
+              }, 200);
+          } else {
+              sizeHandler();
+          }
+      });
+
+    </script>
+    <div class="check-fonts">
+      <p class="check-font-1">test 1</p>
+    </div> 
+
+    <canvas id="canvas" class='ani_hack' width="1500" height="640" > </canvas>
+    <div data-orientation="landscape" class="orientation-msg-container">
+    <p class="orientation-msg-text">Please rotate your device</p>
+    </div>
+
+<div id="root" style="position: absolute;left: 0px;top: 0px;height: 50px; display: none;"></div>
+
+    <!-- TEST BELOW add credit -->
+    <div id="add_credits" class="modal">
+        <div class="holderDiv">
+            <img id="close" src="%PUBLIC_URL%/sprites/but_exit.png">
+            <div id="credits">
+                <span id="coins_available">Available Coins</span>
+                <br>
+                <span id="money"></span>
+            </div>
+            <div class="wrapper">
+                <span id="credit_title">MANAGE COINS</span>
+                <p id="credits_to_add">0</p>
+                <input id="credits_add_val" style="height:8vh; width:30vh;"/>
+                <p id="direction" class="direction">Please input amount.</span></p>
+                
+                <img id="wallet_approve" class="add_cred_but" src="%PUBLIC_URL%/sprites/wallet_approve.png">
+                <img id="wallet_withdraw" class="add_cred_but" src="%PUBLIC_URL%/sprites/wallet_withdraw.png">
+                <img id="wallet_deposit" class="add_cred_but" src="%PUBLIC_URL%/sprites/wallet_deposit.png">
+
+                <!-- <button type="button" class="sc-dlfnbm ljZnsq">Connect</button> -->
+                <!-- <img id="steemconnect" src="%PUBLIC_URL%/sprites/steemconnect.png"> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="dlg_freespin_UI1_ask" class="modal" >
+      <div class="freeSpinAskDiv" style="background-image: url('%PUBLIC_URL%/sprites/bg_freespin.png');background-repeat: no-repeat;">          
+          <div class="wrapper">
+              <span class="dlg_freespin_title">BUY</span>
+              <p id="direction" class="direction">FREE SPINS</span></p>
+              <p><span id="fund4FreeSpin"  class="direction"></span></p>   
+              <p></p>    
+              <p></p>    
+              <table class="betTables">
+                  <tr>
+                      <td width="25%">
+                        <img id="ui1_close" class="dlg_freespin_ui1_close" src="%PUBLIC_URL%/sprites/but_close.png">
+                      </td>
+                      <td width="10%">
+                          
+                      </td>
+                      <td width="25%">
+                        <img id="ui1_confirm" class="dlg_freespin_ui1_confirm" src="%PUBLIC_URL%/sprites/but_confirm.png">
+                    </td>
+                </tr>
+              </table>
+              
+              
+          </div>
+      </div>
+  </div>
+
+    <div id="dlg_bet" class="modal">
+        <div class="betDiv">          
+            <img id="close_bet" src="%PUBLIC_URL%/sprites/but_exit.png">
+            <div class="wrapper">
+                <span class="dlg_bet_title">BET MULTIPLIER</span>
+                <p id="direction" class="direction"></span></p>
+                <!-- <p id="direction" class="direction">COIN VALUE</span></p> -->
+                <p id="direction" class="direction">TOTAL BET</span></p>
+                <p><span id="fund4FreeSpin"  class="direction"></span></p>   
+                <p></p>    
+                <p></p>    
+                <table class="betTables">
+                    <tr>
+                        <td class="betRow" >
+                            <img id="bet_dec" class="dlg_bet_dec" src="%PUBLIC_URL%/sprites/but_bet_dec.png">
+                        </td>        
+                        <td id="betAmount" 
+                        style="text-align: center; vertical-align: top;background-image: url('%PUBLIC_URL%/sprites/outline.png'); background-repeat: no-repeat; "
+                        >
+                            
+                        </td>        
+                        <td class="betRow" >
+                            <img id="bet_inc" class="dlg_bet_inc" src="%PUBLIC_URL%/sprites/but_bet_inc_green.png">
+                        </td>        
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="block_game" style="position: fixed; background-color: transparent; top: 0px; left: 0px; width: 100%; height: 100%; display:none"></div>
+  </body>
+</html>
